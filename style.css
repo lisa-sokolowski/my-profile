@@ -1,0 +1,105 @@
+/* Colors and fonts */
+body { 
+	background-color: rgb(224,217,202);
+	color: rgb(40, 40, 40);
+	font-family: 'Scheherazade', serif;
+	font-size: 18px;
+	text-align: justify;
+	font-weight: lighter;
+
+}
+
+h1, h2 {font-family: 'Josefin Slab', serif;
+		color: rgb(179,134,75);
+		font-weight: lighter;
+}
+
+h1 {font-size: 40px;   
+}
+
+a {text-decoration: none;
+	color: rgb(181 28 33);
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+/* Custom design with class */
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+}
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-white { 
+	background: rgb(251 249 244);
+    padding: 40px;
+    margin: 30px 300px;
+    box-shadow: 0px 20px 30px rgb(0,0,0,0.1);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-redish {
+	background-color: rgb(181 28 33);
+	color: white;
+	padding: 3px 20px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.btn-redish:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+#last {
+	margin: 1px;
+}
+.studies p {
+	margin: 10px;
+}
+.hobbies {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+
+
